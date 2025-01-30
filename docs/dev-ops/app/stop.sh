@@ -1,1 +1,1 @@
-docker stop ddd-100
+docker stop big-market
