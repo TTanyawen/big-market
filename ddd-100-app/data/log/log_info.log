@@ -1,0 +1,111 @@
+25-01-30.15:14:08.743 [main            ] INFO  AwardDaoTest           - Starting AwardDaoTest using Java 1.8.0_221 on Tan with PID 25356 (started by tanya in E:\AA黑马Redis\资料\ddd-100\ddd-100-app)
+25-01-30.15:14:08.745 [main            ] INFO  AwardDaoTest           - The following 1 profile is active: "dev"
+25-01-30.15:14:14.075 [main            ] INFO  AwardDaoTest           - Started AwardDaoTest in 6.165 seconds (JVM running for 8.517)
+25-01-30.15:17:14.331 [main            ] INFO  AwardDaoTest           - Starting AwardDaoTest using Java 1.8.0_221 on Tan with PID 21948 (started by tanya in E:\AA黑马Redis\资料\ddd-100\ddd-100-app)
+25-01-30.15:17:14.333 [main            ] INFO  AwardDaoTest           - The following 1 profile is active: "dev"
+25-01-30.15:17:18.684 [main            ] INFO  AwardDaoTest           - Started AwardDaoTest in 5.465 seconds (JVM running for 6.84)
+25-01-30.15:17:19.183 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-01-30.15:17:20.910 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-01-30.15:17:21.308 [main            ] INFO  AwardDaoTest           - 测试结果：[{"awardConfig":"1,100","awardDesc":"用户积分【优先透彻规则范围，如果没有则走配置】","awardId":101,"awardKey":"user_credit_random"},{"awardConfig":"5","awardDesc":"OpenAI 增加使用次数","awardId":102,"awardKey":"openai_use_count"},{"awardConfig":"10","awardDesc":"OpenAI 增加使用次数","awardId":103,"awardKey":"openai_use_count"},{"awardConfig":"20","awardDesc":"OpenAI 增加使用次数","awardId":104,"awardKey":"openai_use_count"},{"awardConfig":"gpt-4","awardDesc":"OpenAI 增加模型","awardId":105,"awardKey":"openai_model"},{"awardConfig":"dall-e-2","awardDesc":"OpenAI 增加模型","awardId":106,"awardKey":"openai_model"},{"awardConfig":"dall-e-3","awardDesc":"OpenAI 增加模型","awardId":107,"awardKey":"openai_model"},{"awardConfig":"100","awardDesc":"OpenAI 增加使用次数","awardId":108,"awardKey":"openai_use_count"},{"awardConfig":"gpt-4,dall-e-2,dall-e-3","awardDesc":"OpenAI 增加模型","awardId":109,"awardKey":"openai_model"}]
+25-01-30.15:17:21.352 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-01-30.15:17:21.366 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-01-30.20:13:24.826 [main            ] INFO  StrategyTest           - Starting StrategyTest using Java 1.8.0_221 on Tan with PID 28676 (started by tanya in E:\AA黑马Redis\资料\ddd-100\ddd-100-app)
+25-01-30.20:13:24.828 [main            ] INFO  StrategyTest           - The following 1 profile is active: "dev"
+25-01-30.20:13:26.025 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-01-30.20:13:26.030 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-01-30.20:13:26.069 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22 ms. Found 0 Redis repository interfaces.
+25-01-30.20:13:27.875 [main            ] INFO  Version                - Redisson 3.23.4
+25-01-30.20:13:28.570 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-01-30.20:13:28.586 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-01-30.20:13:31.835 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-01-30.20:13:32.023 [main            ] INFO  StrategyTest           - Started StrategyTest in 7.783 seconds (JVM running for 8.861)
+25-01-30.20:14:53.950 [main            ] INFO  StrategyTest           - Starting StrategyTest using Java 1.8.0_221 on Tan with PID 28976 (started by tanya in E:\AA黑马Redis\资料\ddd-100\ddd-100-app)
+25-01-30.20:14:53.952 [main            ] INFO  StrategyTest           - The following 1 profile is active: "dev"
+25-01-30.20:14:54.980 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-01-30.20:14:54.984 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-01-30.20:14:55.014 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+25-01-30.20:14:56.939 [main            ] INFO  Version                - Redisson 3.23.4
+25-01-30.20:14:57.603 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-01-30.20:14:57.621 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-01-30.20:15:01.242 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-01-30.20:15:01.375 [main            ] INFO  StrategyTest           - Started StrategyTest in 7.983 seconds (JVM running for 8.957)
+25-01-30.20:15:01.975 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-01-30.20:15:02.723 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-01-30.20:15:02.880 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-01-30.20:15:02.889 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-01-30.20:15:13.998 [main            ] INFO  StrategyTest           - Starting StrategyTest using Java 1.8.0_221 on Tan with PID 29108 (started by tanya in E:\AA黑马Redis\资料\ddd-100\ddd-100-app)
+25-01-30.20:15:13.999 [main            ] INFO  StrategyTest           - The following 1 profile is active: "dev"
+25-01-30.20:15:15.261 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-01-30.20:15:15.266 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-01-30.20:15:15.303 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
+25-01-30.20:15:17.154 [main            ] INFO  Version                - Redisson 3.23.4
+25-01-30.20:15:17.872 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-01-30.20:15:17.891 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-01-30.20:15:20.975 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-01-30.20:15:21.102 [main            ] INFO  StrategyTest           - Started StrategyTest in 7.708 seconds (JVM running for 8.769)
+25-01-30.20:15:21.725 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-01-30.20:15:22.377 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-01-30.20:15:22.456 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-01-30.20:15:22.458 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-01-30.20:18:07.700 [main            ] INFO  StrategyTest           - Starting StrategyTest using Java 1.8.0_221 on Tan with PID 29660 (started by tanya in E:\AA黑马Redis\资料\ddd-100\ddd-100-app)
+25-01-30.20:18:07.705 [main            ] INFO  StrategyTest           - The following 1 profile is active: "dev"
+25-01-30.20:18:09.465 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-01-30.20:18:09.472 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-01-30.20:18:09.511 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 0 Redis repository interfaces.
+25-01-30.20:18:11.364 [main            ] INFO  Version                - Redisson 3.23.4
+25-01-30.20:18:12.459 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-01-30.20:18:12.484 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-01-30.20:18:15.648 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-01-30.20:18:15.813 [main            ] INFO  StrategyTest           - Started StrategyTest in 9.292 seconds (JVM running for 10.768)
+25-01-30.20:18:16.578 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-01-30.20:18:17.226 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-01-30.20:18:17.312 [main            ] INFO  StrategyTest           - 测试结果：true
+25-01-30.20:18:17.345 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-01-30.20:18:17.357 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-01-30.20:18:33.498 [main            ] INFO  StrategyTest           - Starting StrategyTest using Java 1.8.0_221 on Tan with PID 7832 (started by tanya in E:\AA黑马Redis\资料\ddd-100\ddd-100-app)
+25-01-30.20:18:33.500 [main            ] INFO  StrategyTest           - The following 1 profile is active: "dev"
+25-01-30.20:18:34.671 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-01-30.20:18:34.677 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-01-30.20:18:34.727 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 0 Redis repository interfaces.
+25-01-30.20:18:36.643 [main            ] INFO  Version                - Redisson 3.23.4
+25-01-30.20:18:37.454 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-01-30.20:18:37.470 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-01-30.20:18:40.800 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-01-30.20:18:40.950 [main            ] INFO  StrategyTest           - Started StrategyTest in 8.135 seconds (JVM running for 9.242)
+25-01-30.20:18:41.654 [main            ] INFO  StrategyTest           - 测试结果：101
+25-01-30.20:18:53.852 [main            ] INFO  StrategyTest           - Starting StrategyTest using Java 1.8.0_221 on Tan with PID 5680 (started by tanya in E:\AA黑马Redis\资料\ddd-100\ddd-100-app)
+25-01-30.20:18:53.854 [main            ] INFO  StrategyTest           - The following 1 profile is active: "dev"
+25-01-30.20:18:55.111 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-01-30.20:18:55.117 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-01-30.20:18:55.154 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
+25-01-30.20:18:57.242 [main            ] INFO  Version                - Redisson 3.23.4
+25-01-30.20:18:57.950 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-01-30.20:18:57.967 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-01-30.20:19:01.569 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-01-30.20:19:01.738 [main            ] INFO  StrategyTest           - Started StrategyTest in 8.573 seconds (JVM running for 9.82)
+25-01-30.20:23:23.480 [main            ] INFO  StrategyTest           - Starting StrategyTest using Java 1.8.0_221 on Tan with PID 10544 (started by tanya in E:\AA黑马Redis\资料\ddd-100\ddd-100-app)
+25-01-30.20:23:23.481 [main            ] INFO  StrategyTest           - The following 1 profile is active: "dev"
+25-01-30.20:23:24.572 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-01-30.20:23:24.577 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-01-30.20:23:24.612 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
+25-01-30.20:23:26.420 [main            ] INFO  Version                - Redisson 3.23.4
+25-01-30.20:23:27.080 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-01-30.20:23:27.098 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-01-30.20:23:30.142 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-01-30.20:23:30.274 [main            ] INFO  StrategyTest           - Started StrategyTest in 7.33 seconds (JVM running for 8.561)
+25-01-30.20:23:30.922 [main            ] INFO  StrategyTest           - 测试结果101 - 奖品ID值
+25-01-30.20:23:30.924 [main            ] INFO  StrategyTest           - 测试结果101 - 奖品ID值
+25-01-30.20:23:30.927 [main            ] INFO  StrategyTest           - 测试结果101 - 奖品ID值
+25-01-30.20:23:52.543 [main            ] INFO  StrategyTest           - Starting StrategyTest using Java 1.8.0_221 on Tan with PID 29336 (started by tanya in E:\AA黑马Redis\资料\ddd-100\ddd-100-app)
+25-01-30.20:23:52.545 [main            ] INFO  StrategyTest           - The following 1 profile is active: "dev"
+25-01-30.20:23:53.973 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-01-30.20:23:53.977 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-01-30.20:23:54.029 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 34 ms. Found 0 Redis repository interfaces.
+25-01-30.20:23:56.182 [main            ] INFO  Version                - Redisson 3.23.4
+25-01-30.20:23:57.189 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-01-30.20:23:57.212 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-01-30.20:24:00.792 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-01-30.20:24:00.947 [main            ] INFO  StrategyTest           - Started StrategyTest in 9.751 seconds (JVM running for 11.188)
+25-01-30.20:24:01.669 [main            ] INFO  StrategyTest           - 测试结果101 - 奖品ID值{}
+25-01-30.20:24:01.672 [main            ] INFO  StrategyTest           - 测试结果101 - 奖品ID值{}
+25-01-30.20:24:01.674 [main            ] INFO  StrategyTest           - 测试结果102 - 奖品ID值{}
