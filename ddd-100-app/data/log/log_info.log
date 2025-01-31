@@ -794,3 +794,86 @@ java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 25-01-31.19:11:14.772 [main            ] INFO  RaffleStrategyTest     - 测试结果：{"awardId":105}
 25-01-31.19:11:14.808 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
 25-01-31.19:11:14.817 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-01-31.21:08:20.425 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest using Java 1.8.0_221 on Tan with PID 33784 (started by tanya in E:\AA黑马Redis\资料\ddd-100\ddd-100-app)
+25-01-31.21:08:20.426 [main            ] INFO  RaffleStrategyTest     - The following 1 profile is active: "dev"
+25-01-31.21:08:22.274 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-01-31.21:08:22.280 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-01-31.21:08:22.337 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 33 ms. Found 0 Redis repository interfaces.
+25-01-31.21:08:24.971 [main            ] INFO  Version                - Redisson 3.23.4
+25-01-31.21:08:25.976 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-01-31.21:08:26.012 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-01-31.21:08:31.114 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-01-31.21:08:31.389 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 11.87 seconds (JVM running for 13.478)
+25-01-31.21:09:50.822 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest using Java 1.8.0_221 on Tan with PID 26744 (started by tanya in E:\AA黑马Redis\资料\ddd-100\ddd-100-app)
+25-01-31.21:09:50.825 [main            ] INFO  RaffleStrategyTest     - The following 1 profile is active: "dev"
+25-01-31.21:09:52.505 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-01-31.21:09:52.513 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-01-31.21:09:52.580 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38 ms. Found 0 Redis repository interfaces.
+25-01-31.21:09:56.001 [main            ] INFO  Version                - Redisson 3.23.4
+25-01-31.21:09:57.167 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-01-31.21:09:57.204 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-01-31.21:10:04.442 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-01-31.21:10:04.702 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 14.885 seconds (JVM running for 16.572)
+25-01-31.21:10:05.965 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-01-31.21:10:07.174 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-01-31.21:10:07.716 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+25-01-31.21:10:07.837 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-01-31.21:10:07.855 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-01-31.21:14:24.882 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest using Java 1.8.0_221 on Tan with PID 26396 (started by tanya in E:\AA黑马Redis\资料\ddd-100\ddd-100-app)
+25-01-31.21:14:24.884 [main            ] INFO  RaffleStrategyTest     - The following 1 profile is active: "dev"
+25-01-31.21:14:26.567 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-01-31.21:14:26.574 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-01-31.21:14:26.634 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 35 ms. Found 0 Redis repository interfaces.
+25-01-31.21:14:29.553 [main            ] INFO  Version                - Redisson 3.23.4
+25-01-31.21:14:30.719 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-01-31.21:14:30.750 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-01-31.21:14:36.176 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-01-31.21:14:36.499 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 12.66 seconds (JVM running for 14.256)
+25-01-31.21:14:37.769 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-01-31.21:14:38.887 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-01-31.21:14:39.407 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+25-01-31.21:14:39.508 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-01-31.21:14:39.525 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-01-31.21:16:26.603 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest using Java 1.8.0_221 on Tan with PID 31520 (started by tanya in E:\AA黑马Redis\资料\ddd-100\ddd-100-app)
+25-01-31.21:16:26.606 [main            ] INFO  RaffleStrategyTest     - The following 1 profile is active: "dev"
+25-01-31.21:16:28.944 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-01-31.21:16:28.950 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-01-31.21:16:29.010 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 34 ms. Found 0 Redis repository interfaces.
+25-01-31.21:16:32.256 [main            ] INFO  Version                - Redisson 3.23.4
+25-01-31.21:16:33.355 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-01-31.21:16:33.384 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-01-31.21:16:38.835 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-01-31.21:16:39.164 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 13.657 seconds (JVM running for 15.416)
+25-01-31.21:16:41.782 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-01-31.21:16:43.244 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-01-31.21:16:43.383 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+25-01-31.21:16:43.394 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+25-01-31.21:16:43.442 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+25-01-31.21:16:43.493 [main            ] INFO  RuleLockLogicFilter    - 规则过滤-次数锁 userId:xiaofuge strategyId:100003 ruleModel:rule_lock
+25-01-31.21:16:43.577 [main            ] INFO  DefaultRaffleStrategy  - 抽奖中规则过滤 userId: xiaofuge ruleModel: rule_lock code: 0000 info: 放行；执行后续的流程，不受规则引擎影响
+25-01-31.21:16:43.993 [main            ] INFO  RaffleStrategyTest     - 请求参数：{"strategyId":100003,"userId":"xiaofuge"}
+25-01-31.21:16:44.002 [main            ] INFO  RaffleStrategyTest     - 测试结果：{"awardId":108}
+25-01-31.21:16:44.072 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-01-31.21:16:44.085 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-01-31.21:17:42.725 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest using Java 1.8.0_221 on Tan with PID 21784 (started by tanya in E:\AA黑马Redis\资料\ddd-100\ddd-100-app)
+25-01-31.21:17:42.727 [main            ] INFO  RaffleStrategyTest     - The following 1 profile is active: "dev"
+25-01-31.21:17:44.732 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-01-31.21:17:44.740 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-01-31.21:17:44.813 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44 ms. Found 0 Redis repository interfaces.
+25-01-31.21:17:48.465 [main            ] INFO  Version                - Redisson 3.23.4
+25-01-31.21:17:49.585 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-01-31.21:17:49.625 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-01-31.21:17:55.519 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-01-31.21:17:55.814 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 14.178 seconds (JVM running for 16.713)
+25-01-31.21:17:57.512 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-01-31.21:17:58.634 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-01-31.21:17:58.748 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+25-01-31.21:17:58.778 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+25-01-31.21:17:58.795 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+25-01-31.21:17:58.813 [main            ] INFO  RuleBackListLogicFilter - 规则过滤-黑名单 userId:xiaofuge strategyId:100001 ruleModel:rule_blacklist
+25-01-31.21:17:58.893 [main            ] INFO  RuleWeightLogicFilter  - 规则过滤-权重范围 userId:xiaofuge strategyId:100001 ruleModel:rule_weight
+25-01-31.21:17:58.900 [main            ] INFO  DefaultRaffleStrategy  - 抽奖前规则过滤 userId: xiaofuge ruleModel: rule_weight code: 0001 info: 接管；后续的流程，受规则引擎执行结果影响
+25-01-31.21:17:59.249 [main            ] INFO  RaffleStrategyTest     - 请求参数：{"strategyId":100001,"userId":"xiaofuge"}
+25-01-31.21:17:59.253 [main            ] INFO  RaffleStrategyTest     - 测试结果：{"awardId":102}
+25-01-31.21:17:59.311 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-01-31.21:17:59.324 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.

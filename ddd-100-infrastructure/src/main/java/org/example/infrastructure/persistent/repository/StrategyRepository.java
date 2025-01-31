@@ -1,9 +1,9 @@
-package org.example.infrastructure.repository;
-
+package org.example.infrastructure.persistent.repository;
 
 import org.example.domain.strategy.model.entity.StrategyAwardEntity;
 import org.example.domain.strategy.model.entity.StrategyEntity;
 import org.example.domain.strategy.model.entity.StrategyRuleEntity;
+import org.example.domain.strategy.model.valobj.StrategyAwardRuleModelVO;
 import org.example.domain.strategy.repository.IStrategyRepository;
 import org.example.infrastructure.persistent.dao.IStrategyAwardDao;
 import org.example.infrastructure.persistent.dao.IStrategyDao;
@@ -11,12 +11,13 @@ import org.example.infrastructure.persistent.dao.IStrategyRuleDao;
 import org.example.infrastructure.persistent.po.Strategy;
 import org.example.infrastructure.persistent.po.StrategyAward;
 import org.example.infrastructure.persistent.po.StrategyRule;
-import org.example.infrastructure.redis.IRedisService;
+import org.example.infrastructure.persistent.redis.IRedisService;
 import org.example.types.common.Constants;
 import org.springframework.stereotype.Repository;
 
 import javax.annotation.Resource;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -91,6 +92,7 @@ public class StrategyRepository implements IStrategyRepository {
         StrategyEntity strategyEntity = redisService.getValue(cacheKey);
         if (null != strategyEntity) return strategyEntity;
         Strategy strategy = strategyDao.queryStrategyByStrategyId(strategyId);
+        if (null == strategy) return StrategyEntity.builder().build();
         strategyEntity = StrategyEntity.builder()
                 .strategyId(strategy.getStrategyId())
                 .strategyDesc(strategy.getStrategyDesc())
@@ -123,6 +125,15 @@ public class StrategyRepository implements IStrategyRepository {
         strategyRule.setAwardId(awardId);
         strategyRule.setRuleModel(ruleModel);
         return strategyRuleDao.queryStrategyRuleValue(strategyRule);
+    }
+
+    @Override
+    public StrategyAwardRuleModelVO queryStrategyAwardRuleModelVO(Long strategyId, Integer awardId) {
+        StrategyAward strategyAward = new StrategyAward();
+        strategyAward.setStrategyId(strategyId);
+        strategyAward.setAwardId(awardId);
+        String ruleModels = strategyAwardDao.queryStrategyAwardRuleModels(strategyAward);
+        return StrategyAwardRuleModelVO.builder().ruleModels(ruleModels).build();
     }
 
 }

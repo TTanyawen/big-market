@@ -1,7 +1,5 @@
 package org.example.domain.strategy.service.rule.impl;
 
-
-import lombok.extern.slf4j.Slf4j;
 import org.example.domain.strategy.model.entity.RuleActionEntity;
 import org.example.domain.strategy.model.entity.RuleMatterEntity;
 import org.example.domain.strategy.model.valobj.RuleLogicCheckTypeVO;
@@ -10,6 +8,7 @@ import org.example.domain.strategy.service.annotation.LogicStrategy;
 import org.example.domain.strategy.service.rule.ILogicFilter;
 import org.example.domain.strategy.service.rule.factory.DefaultLogicFactory;
 import org.example.types.common.Constants;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.Resource;
