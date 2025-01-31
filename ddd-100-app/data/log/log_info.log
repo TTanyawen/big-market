@@ -1,111 +1,480 @@
-25-01-30.15:14:08.743 [main            ] INFO  AwardDaoTest           - Starting AwardDaoTest using Java 1.8.0_221 on Tan with PID 25356 (started by tanya in E:\AA黑马Redis\资料\ddd-100\ddd-100-app)
-25-01-30.15:14:08.745 [main            ] INFO  AwardDaoTest           - The following 1 profile is active: "dev"
-25-01-30.15:14:14.075 [main            ] INFO  AwardDaoTest           - Started AwardDaoTest in 6.165 seconds (JVM running for 8.517)
-25-01-30.15:17:14.331 [main            ] INFO  AwardDaoTest           - Starting AwardDaoTest using Java 1.8.0_221 on Tan with PID 21948 (started by tanya in E:\AA黑马Redis\资料\ddd-100\ddd-100-app)
-25-01-30.15:17:14.333 [main            ] INFO  AwardDaoTest           - The following 1 profile is active: "dev"
-25-01-30.15:17:18.684 [main            ] INFO  AwardDaoTest           - Started AwardDaoTest in 5.465 seconds (JVM running for 6.84)
-25-01-30.15:17:19.183 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
-25-01-30.15:17:20.910 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
-25-01-30.15:17:21.308 [main            ] INFO  AwardDaoTest           - 测试结果：[{"awardConfig":"1,100","awardDesc":"用户积分【优先透彻规则范围，如果没有则走配置】","awardId":101,"awardKey":"user_credit_random"},{"awardConfig":"5","awardDesc":"OpenAI 增加使用次数","awardId":102,"awardKey":"openai_use_count"},{"awardConfig":"10","awardDesc":"OpenAI 增加使用次数","awardId":103,"awardKey":"openai_use_count"},{"awardConfig":"20","awardDesc":"OpenAI 增加使用次数","awardId":104,"awardKey":"openai_use_count"},{"awardConfig":"gpt-4","awardDesc":"OpenAI 增加模型","awardId":105,"awardKey":"openai_model"},{"awardConfig":"dall-e-2","awardDesc":"OpenAI 增加模型","awardId":106,"awardKey":"openai_model"},{"awardConfig":"dall-e-3","awardDesc":"OpenAI 增加模型","awardId":107,"awardKey":"openai_model"},{"awardConfig":"100","awardDesc":"OpenAI 增加使用次数","awardId":108,"awardKey":"openai_use_count"},{"awardConfig":"gpt-4,dall-e-2,dall-e-3","awardDesc":"OpenAI 增加模型","awardId":109,"awardKey":"openai_model"}]
-25-01-30.15:17:21.352 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
-25-01-30.15:17:21.366 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
-25-01-30.20:13:24.826 [main            ] INFO  StrategyTest           - Starting StrategyTest using Java 1.8.0_221 on Tan with PID 28676 (started by tanya in E:\AA黑马Redis\资料\ddd-100\ddd-100-app)
-25-01-30.20:13:24.828 [main            ] INFO  StrategyTest           - The following 1 profile is active: "dev"
-25-01-30.20:13:26.025 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-25-01-30.20:13:26.030 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-25-01-30.20:13:26.069 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22 ms. Found 0 Redis repository interfaces.
-25-01-30.20:13:27.875 [main            ] INFO  Version                - Redisson 3.23.4
-25-01-30.20:13:28.570 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
-25-01-30.20:13:28.586 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
-25-01-30.20:13:31.835 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-25-01-30.20:13:32.023 [main            ] INFO  StrategyTest           - Started StrategyTest in 7.783 seconds (JVM running for 8.861)
-25-01-30.20:14:53.950 [main            ] INFO  StrategyTest           - Starting StrategyTest using Java 1.8.0_221 on Tan with PID 28976 (started by tanya in E:\AA黑马Redis\资料\ddd-100\ddd-100-app)
-25-01-30.20:14:53.952 [main            ] INFO  StrategyTest           - The following 1 profile is active: "dev"
-25-01-30.20:14:54.980 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-25-01-30.20:14:54.984 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-25-01-30.20:14:55.014 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
-25-01-30.20:14:56.939 [main            ] INFO  Version                - Redisson 3.23.4
-25-01-30.20:14:57.603 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
-25-01-30.20:14:57.621 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
-25-01-30.20:15:01.242 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-25-01-30.20:15:01.375 [main            ] INFO  StrategyTest           - Started StrategyTest in 7.983 seconds (JVM running for 8.957)
-25-01-30.20:15:01.975 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
-25-01-30.20:15:02.723 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
-25-01-30.20:15:02.880 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
-25-01-30.20:15:02.889 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
-25-01-30.20:15:13.998 [main            ] INFO  StrategyTest           - Starting StrategyTest using Java 1.8.0_221 on Tan with PID 29108 (started by tanya in E:\AA黑马Redis\资料\ddd-100\ddd-100-app)
-25-01-30.20:15:13.999 [main            ] INFO  StrategyTest           - The following 1 profile is active: "dev"
-25-01-30.20:15:15.261 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-25-01-30.20:15:15.266 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-25-01-30.20:15:15.303 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
-25-01-30.20:15:17.154 [main            ] INFO  Version                - Redisson 3.23.4
-25-01-30.20:15:17.872 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
-25-01-30.20:15:17.891 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
-25-01-30.20:15:20.975 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-25-01-30.20:15:21.102 [main            ] INFO  StrategyTest           - Started StrategyTest in 7.708 seconds (JVM running for 8.769)
-25-01-30.20:15:21.725 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
-25-01-30.20:15:22.377 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
-25-01-30.20:15:22.456 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
-25-01-30.20:15:22.458 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
-25-01-30.20:18:07.700 [main            ] INFO  StrategyTest           - Starting StrategyTest using Java 1.8.0_221 on Tan with PID 29660 (started by tanya in E:\AA黑马Redis\资料\ddd-100\ddd-100-app)
-25-01-30.20:18:07.705 [main            ] INFO  StrategyTest           - The following 1 profile is active: "dev"
-25-01-30.20:18:09.465 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-25-01-30.20:18:09.472 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-25-01-30.20:18:09.511 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 0 Redis repository interfaces.
-25-01-30.20:18:11.364 [main            ] INFO  Version                - Redisson 3.23.4
-25-01-30.20:18:12.459 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
-25-01-30.20:18:12.484 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
-25-01-30.20:18:15.648 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-25-01-30.20:18:15.813 [main            ] INFO  StrategyTest           - Started StrategyTest in 9.292 seconds (JVM running for 10.768)
-25-01-30.20:18:16.578 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
-25-01-30.20:18:17.226 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
-25-01-30.20:18:17.312 [main            ] INFO  StrategyTest           - 测试结果：true
-25-01-30.20:18:17.345 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
-25-01-30.20:18:17.357 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
-25-01-30.20:18:33.498 [main            ] INFO  StrategyTest           - Starting StrategyTest using Java 1.8.0_221 on Tan with PID 7832 (started by tanya in E:\AA黑马Redis\资料\ddd-100\ddd-100-app)
-25-01-30.20:18:33.500 [main            ] INFO  StrategyTest           - The following 1 profile is active: "dev"
-25-01-30.20:18:34.671 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-25-01-30.20:18:34.677 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-25-01-30.20:18:34.727 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 0 Redis repository interfaces.
-25-01-30.20:18:36.643 [main            ] INFO  Version                - Redisson 3.23.4
-25-01-30.20:18:37.454 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
-25-01-30.20:18:37.470 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
-25-01-30.20:18:40.800 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-25-01-30.20:18:40.950 [main            ] INFO  StrategyTest           - Started StrategyTest in 8.135 seconds (JVM running for 9.242)
-25-01-30.20:18:41.654 [main            ] INFO  StrategyTest           - 测试结果：101
-25-01-30.20:18:53.852 [main            ] INFO  StrategyTest           - Starting StrategyTest using Java 1.8.0_221 on Tan with PID 5680 (started by tanya in E:\AA黑马Redis\资料\ddd-100\ddd-100-app)
-25-01-30.20:18:53.854 [main            ] INFO  StrategyTest           - The following 1 profile is active: "dev"
-25-01-30.20:18:55.111 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-25-01-30.20:18:55.117 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-25-01-30.20:18:55.154 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
-25-01-30.20:18:57.242 [main            ] INFO  Version                - Redisson 3.23.4
-25-01-30.20:18:57.950 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
-25-01-30.20:18:57.967 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
-25-01-30.20:19:01.569 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-25-01-30.20:19:01.738 [main            ] INFO  StrategyTest           - Started StrategyTest in 8.573 seconds (JVM running for 9.82)
-25-01-30.20:23:23.480 [main            ] INFO  StrategyTest           - Starting StrategyTest using Java 1.8.0_221 on Tan with PID 10544 (started by tanya in E:\AA黑马Redis\资料\ddd-100\ddd-100-app)
-25-01-30.20:23:23.481 [main            ] INFO  StrategyTest           - The following 1 profile is active: "dev"
-25-01-30.20:23:24.572 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-25-01-30.20:23:24.577 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-25-01-30.20:23:24.612 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
-25-01-30.20:23:26.420 [main            ] INFO  Version                - Redisson 3.23.4
-25-01-30.20:23:27.080 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
-25-01-30.20:23:27.098 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
-25-01-30.20:23:30.142 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-25-01-30.20:23:30.274 [main            ] INFO  StrategyTest           - Started StrategyTest in 7.33 seconds (JVM running for 8.561)
-25-01-30.20:23:30.922 [main            ] INFO  StrategyTest           - 测试结果101 - 奖品ID值
-25-01-30.20:23:30.924 [main            ] INFO  StrategyTest           - 测试结果101 - 奖品ID值
-25-01-30.20:23:30.927 [main            ] INFO  StrategyTest           - 测试结果101 - 奖品ID值
-25-01-30.20:23:52.543 [main            ] INFO  StrategyTest           - Starting StrategyTest using Java 1.8.0_221 on Tan with PID 29336 (started by tanya in E:\AA黑马Redis\资料\ddd-100\ddd-100-app)
-25-01-30.20:23:52.545 [main            ] INFO  StrategyTest           - The following 1 profile is active: "dev"
-25-01-30.20:23:53.973 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-25-01-30.20:23:53.977 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-25-01-30.20:23:54.029 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 34 ms. Found 0 Redis repository interfaces.
-25-01-30.20:23:56.182 [main            ] INFO  Version                - Redisson 3.23.4
-25-01-30.20:23:57.189 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
-25-01-30.20:23:57.212 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
-25-01-30.20:24:00.792 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-25-01-30.20:24:00.947 [main            ] INFO  StrategyTest           - Started StrategyTest in 9.751 seconds (JVM running for 11.188)
-25-01-30.20:24:01.669 [main            ] INFO  StrategyTest           - 测试结果101 - 奖品ID值{}
-25-01-30.20:24:01.672 [main            ] INFO  StrategyTest           - 测试结果101 - 奖品ID值{}
-25-01-30.20:24:01.674 [main            ] INFO  StrategyTest           - 测试结果102 - 奖品ID值{}
+25-01-31.12:26:31.905 [main            ] INFO  StrategyTest           - Starting StrategyTest using Java 1.8.0_221 on Tan with PID 22736 (started by tanya in E:\AA黑马Redis\资料\ddd-100\ddd-100-app)
+25-01-31.12:26:31.906 [main            ] INFO  StrategyTest           - The following 1 profile is active: "dev"
+25-01-31.12:26:33.354 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-01-31.12:26:33.360 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-01-31.12:26:33.408 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
+25-01-31.12:26:35.866 [main            ] INFO  Version                - Redisson 3.23.4
+25-01-31.12:26:36.785 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-01-31.12:26:36.823 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-01-31.12:26:40.241 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-01-31.12:26:40.400 [main            ] INFO  StrategyTest           - Started StrategyTest in 9.137 seconds (JVM running for 10.886)
+25-01-31.12:26:41.106 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-01-31.12:26:42.053 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-01-31.12:26:42.515 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-01-31.12:26:42.523 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-01-31.12:30:01.419 [main            ] INFO  StrategyTest           - Starting StrategyTest using Java 1.8.0_221 on Tan with PID 23104 (started by tanya in E:\AA黑马Redis\资料\ddd-100\ddd-100-app)
+25-01-31.12:30:01.421 [main            ] INFO  StrategyTest           - The following 1 profile is active: "dev"
+25-01-31.12:30:02.593 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-01-31.12:30:02.598 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-01-31.12:30:02.632 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+25-01-31.12:30:04.547 [main            ] INFO  Version                - Redisson 3.23.4
+25-01-31.12:30:05.269 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-01-31.12:30:05.292 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-01-31.12:30:08.502 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-01-31.12:30:08.659 [main            ] INFO  StrategyTest           - Started StrategyTest in 7.863 seconds (JVM running for 8.926)
+25-01-31.13:05:57.611 [main            ] INFO  StrategyTest           - Starting StrategyTest using Java 1.8.0_221 on Tan with PID 12340 (started by tanya in E:\AA黑马Redis\资料\ddd-100\ddd-100-app)
+25-01-31.13:05:57.612 [main            ] INFO  StrategyTest           - The following 1 profile is active: "dev"
+25-01-31.13:05:58.876 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-01-31.13:05:58.881 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-01-31.13:05:58.913 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+25-01-31.13:06:00.739 [main            ] INFO  Version                - Redisson 3.23.4
+25-01-31.13:06:01.425 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-01-31.13:06:01.444 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-01-31.13:06:05.389 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-01-31.13:06:05.558 [main            ] INFO  StrategyTest           - Started StrategyTest in 8.446 seconds (JVM running for 16.236)
+25-01-31.13:12:02.498 [main            ] INFO  StrategyTest           - Starting StrategyTest using Java 1.8.0_221 on Tan with PID 13532 (started by tanya in E:\AA黑马Redis\资料\ddd-100\ddd-100-app)
+25-01-31.13:12:02.499 [main            ] INFO  StrategyTest           - The following 1 profile is active: "dev"
+25-01-31.13:12:03.723 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-01-31.13:12:03.728 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-01-31.13:12:03.762 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+25-01-31.13:12:05.249 [main            ] WARN  GenericWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'strategyArmoryDispatch': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'strategyRepository': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'IStrategyDao' defined in file [E:\AA黑马Redis\资料\ddd-100\ddd-100-infrastructure\target\classes\org\example\infrastructure\persistent\dao\IStrategyDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [E:\AA黑马Redis\资料\ddd-100\ddd-100-app\target\classes\mybatis\mapper\strategy_rule_mapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [E:\AA黑马Redis\资料\ddd-100\ddd-100-app\target\classes\mybatis\mapper\strategy_rule_mapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'cn.bugstack.infrastructure.persistent.po.StrategyRule'.  Cause: java.lang.ClassNotFoundException: Cannot find class: cn.bugstack.infrastructure.persistent.po.StrategyRule
+25-01-31.13:12:05.266 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+25-01-31.13:12:05.313 [main            ] ERROR SpringApplication      - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'strategyArmoryDispatch': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'strategyRepository': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'IStrategyDao' defined in file [E:\AA黑马Redis\资料\ddd-100\ddd-100-infrastructure\target\classes\org\example\infrastructure\persistent\dao\IStrategyDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [E:\AA黑马Redis\资料\ddd-100\ddd-100-app\target\classes\mybatis\mapper\strategy_rule_mapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [E:\AA黑马Redis\资料\ddd-100\ddd-100-app\target\classes\mybatis\mapper\strategy_rule_mapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'cn.bugstack.infrastructure.persistent.po.StrategyRule'.  Cause: java.lang.ClassNotFoundException: Cannot find class: cn.bugstack.infrastructure.persistent.po.StrategyRule
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:136)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:141)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:90)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'strategyRepository': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'IStrategyDao' defined in file [E:\AA黑马Redis\资料\ddd-100\ddd-100-infrastructure\target\classes\org\example\infrastructure\persistent\dao\IStrategyDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [E:\AA黑马Redis\资料\ddd-100\ddd-100-app\target\classes\mybatis\mapper\strategy_rule_mapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [E:\AA黑马Redis\资料\ddd-100\ddd-100-app\target\classes\mybatis\mapper\strategy_rule_mapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'cn.bugstack.infrastructure.persistent.po.StrategyRule'.  Cause: java.lang.ClassNotFoundException: Cannot find class: cn.bugstack.infrastructure.persistent.po.StrategyRule
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:544)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 43 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'IStrategyDao' defined in file [E:\AA黑马Redis\资料\ddd-100\ddd-100-infrastructure\target\classes\org\example\infrastructure\persistent\dao\IStrategyDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [E:\AA黑马Redis\资料\ddd-100\ddd-100-app\target\classes\mybatis\mapper\strategy_rule_mapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [E:\AA黑马Redis\资料\ddd-100\ddd-100-app\target\classes\mybatis\mapper\strategy_rule_mapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'cn.bugstack.infrastructure.persistent.po.StrategyRule'.  Cause: java.lang.ClassNotFoundException: Cannot find class: cn.bugstack.infrastructure.persistent.po.StrategyRule
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1534)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:544)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 59 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [E:\AA黑马Redis\资料\ddd-100\ddd-100-app\target\classes\mybatis\mapper\strategy_rule_mapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [E:\AA黑马Redis\资料\ddd-100\ddd-100-app\target\classes\mybatis\mapper\strategy_rule_mapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'cn.bugstack.infrastructure.persistent.po.StrategyRule'.  Cause: java.lang.ClassNotFoundException: Cannot find class: cn.bugstack.infrastructure.persistent.po.StrategyRule
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1519)
+	... 75 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [E:\AA黑马Redis\资料\ddd-100\ddd-100-app\target\classes\mybatis\mapper\strategy_rule_mapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [E:\AA黑马Redis\资料\ddd-100\ddd-100-app\target\classes\mybatis\mapper\strategy_rule_mapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'cn.bugstack.infrastructure.persistent.po.StrategyRule'.  Cause: java.lang.ClassNotFoundException: Cannot find class: cn.bugstack.infrastructure.persistent.po.StrategyRule
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 88 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [E:\AA黑马Redis\资料\ddd-100\ddd-100-app\target\classes\mybatis\mapper\strategy_rule_mapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [E:\AA黑马Redis\资料\ddd-100\ddd-100-app\target\classes\mybatis\mapper\strategy_rule_mapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'cn.bugstack.infrastructure.persistent.po.StrategyRule'.  Cause: java.lang.ClassNotFoundException: Cannot find class: cn.bugstack.infrastructure.persistent.po.StrategyRule
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:613)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:491)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:633)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:179)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$4d3f5b66.CGLIB$sqlSessionFactory$0(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$4d3f5b66$$FastClassBySpringCGLIB$$ef558c3e.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$4d3f5b66.sqlSessionFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 89 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [E:\AA黑马Redis\资料\ddd-100\ddd-100-app\target\classes\mybatis\mapper\strategy_rule_mapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'cn.bugstack.infrastructure.persistent.po.StrategyRule'.  Cause: java.lang.ClassNotFoundException: Cannot find class: cn.bugstack.infrastructure.persistent.po.StrategyRule
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:95)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:611)
+	... 102 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'cn.bugstack.infrastructure.persistent.po.StrategyRule'.  Cause: java.lang.ClassNotFoundException: Cannot find class: cn.bugstack.infrastructure.persistent.po.StrategyRule
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:76)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:138)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:131)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:121)
+	... 104 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'cn.bugstack.infrastructure.persistent.po.StrategyRule'.  Cause: java.lang.ClassNotFoundException: Cannot find class: cn.bugstack.infrastructure.persistent.po.StrategyRule
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 108 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: cn.bugstack.infrastructure.persistent.po.StrategyRule
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:196)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
+	... 110 common frames omitted
+25-01-31.13:12:05.317 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@ae13544] to prepare test instance [org.example.test.domain.StrategyTest@72eb6200]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'strategyArmoryDispatch': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'strategyRepository': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'IStrategyDao' defined in file [E:\AA黑马Redis\资料\ddd-100\ddd-100-infrastructure\target\classes\org\example\infrastructure\persistent\dao\IStrategyDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [E:\AA黑马Redis\资料\ddd-100\ddd-100-app\target\classes\mybatis\mapper\strategy_rule_mapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [E:\AA黑马Redis\资料\ddd-100\ddd-100-app\target\classes\mybatis\mapper\strategy_rule_mapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'cn.bugstack.infrastructure.persistent.po.StrategyRule'.  Cause: java.lang.ClassNotFoundException: Cannot find class: cn.bugstack.infrastructure.persistent.po.StrategyRule
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:136)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:141)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:90)
+	... 27 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'strategyRepository': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'IStrategyDao' defined in file [E:\AA黑马Redis\资料\ddd-100\ddd-100-infrastructure\target\classes\org\example\infrastructure\persistent\dao\IStrategyDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [E:\AA黑马Redis\资料\ddd-100\ddd-100-app\target\classes\mybatis\mapper\strategy_rule_mapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [E:\AA黑马Redis\资料\ddd-100\ddd-100-app\target\classes\mybatis\mapper\strategy_rule_mapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'cn.bugstack.infrastructure.persistent.po.StrategyRule'.  Cause: java.lang.ClassNotFoundException: Cannot find class: cn.bugstack.infrastructure.persistent.po.StrategyRule
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:544)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 43 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'IStrategyDao' defined in file [E:\AA黑马Redis\资料\ddd-100\ddd-100-infrastructure\target\classes\org\example\infrastructure\persistent\dao\IStrategyDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [E:\AA黑马Redis\资料\ddd-100\ddd-100-app\target\classes\mybatis\mapper\strategy_rule_mapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [E:\AA黑马Redis\资料\ddd-100\ddd-100-app\target\classes\mybatis\mapper\strategy_rule_mapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'cn.bugstack.infrastructure.persistent.po.StrategyRule'.  Cause: java.lang.ClassNotFoundException: Cannot find class: cn.bugstack.infrastructure.persistent.po.StrategyRule
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1534)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:544)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 59 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [E:\AA黑马Redis\资料\ddd-100\ddd-100-app\target\classes\mybatis\mapper\strategy_rule_mapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [E:\AA黑马Redis\资料\ddd-100\ddd-100-app\target\classes\mybatis\mapper\strategy_rule_mapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'cn.bugstack.infrastructure.persistent.po.StrategyRule'.  Cause: java.lang.ClassNotFoundException: Cannot find class: cn.bugstack.infrastructure.persistent.po.StrategyRule
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1519)
+	... 75 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [E:\AA黑马Redis\资料\ddd-100\ddd-100-app\target\classes\mybatis\mapper\strategy_rule_mapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [E:\AA黑马Redis\资料\ddd-100\ddd-100-app\target\classes\mybatis\mapper\strategy_rule_mapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'cn.bugstack.infrastructure.persistent.po.StrategyRule'.  Cause: java.lang.ClassNotFoundException: Cannot find class: cn.bugstack.infrastructure.persistent.po.StrategyRule
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 88 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [E:\AA黑马Redis\资料\ddd-100\ddd-100-app\target\classes\mybatis\mapper\strategy_rule_mapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [E:\AA黑马Redis\资料\ddd-100\ddd-100-app\target\classes\mybatis\mapper\strategy_rule_mapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'cn.bugstack.infrastructure.persistent.po.StrategyRule'.  Cause: java.lang.ClassNotFoundException: Cannot find class: cn.bugstack.infrastructure.persistent.po.StrategyRule
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:613)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:491)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:633)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:179)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$4d3f5b66.CGLIB$sqlSessionFactory$0(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$4d3f5b66$$FastClassBySpringCGLIB$$ef558c3e.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$4d3f5b66.sqlSessionFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 89 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [E:\AA黑马Redis\资料\ddd-100\ddd-100-app\target\classes\mybatis\mapper\strategy_rule_mapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'cn.bugstack.infrastructure.persistent.po.StrategyRule'.  Cause: java.lang.ClassNotFoundException: Cannot find class: cn.bugstack.infrastructure.persistent.po.StrategyRule
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:95)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:611)
+	... 102 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'cn.bugstack.infrastructure.persistent.po.StrategyRule'.  Cause: java.lang.ClassNotFoundException: Cannot find class: cn.bugstack.infrastructure.persistent.po.StrategyRule
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:76)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:138)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:131)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:121)
+	... 104 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'cn.bugstack.infrastructure.persistent.po.StrategyRule'.  Cause: java.lang.ClassNotFoundException: Cannot find class: cn.bugstack.infrastructure.persistent.po.StrategyRule
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 108 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: cn.bugstack.infrastructure.persistent.po.StrategyRule
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:196)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
+	... 110 common frames omitted
+25-01-31.13:13:03.619 [main            ] INFO  StrategyTest           - Starting StrategyTest using Java 1.8.0_221 on Tan with PID 19800 (started by tanya in E:\AA黑马Redis\资料\ddd-100\ddd-100-app)
+25-01-31.13:13:03.620 [main            ] INFO  StrategyTest           - The following 1 profile is active: "dev"
+25-01-31.13:13:04.824 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-01-31.13:13:04.830 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-01-31.13:13:04.880 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
+25-01-31.13:13:06.797 [main            ] INFO  Version                - Redisson 3.23.4
+25-01-31.13:13:07.511 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-01-31.13:13:07.531 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-01-31.13:13:10.477 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-01-31.13:13:10.610 [main            ] INFO  StrategyTest           - Started StrategyTest in 7.574 seconds (JVM running for 8.624)
+25-01-31.13:14:12.767 [main            ] INFO  StrategyTest           - Starting StrategyTest using Java 1.8.0_221 on Tan with PID 19648 (started by tanya in E:\AA黑马Redis\资料\ddd-100\ddd-100-app)
+25-01-31.13:14:12.769 [main            ] INFO  StrategyTest           - The following 1 profile is active: "dev"
+25-01-31.13:14:14.079 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-01-31.13:14:14.085 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-01-31.13:14:14.123 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
+25-01-31.13:14:16.441 [main            ] INFO  Version                - Redisson 3.23.4
+25-01-31.13:14:17.480 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-01-31.13:14:17.517 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-01-31.13:14:21.240 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-01-31.13:14:21.418 [main            ] INFO  StrategyTest           - Started StrategyTest in 9.39 seconds (JVM running for 10.718)
+25-01-31.13:14:32.967 [main            ] INFO  StrategyTest           - Starting StrategyTest using Java 1.8.0_221 on Tan with PID 20328 (started by tanya in E:\AA黑马Redis\资料\ddd-100\ddd-100-app)
+25-01-31.13:14:32.968 [main            ] INFO  StrategyTest           - The following 1 profile is active: "dev"
+25-01-31.13:14:34.215 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-01-31.13:14:34.221 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-01-31.13:14:34.262 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 0 Redis repository interfaces.
+25-01-31.13:14:36.425 [main            ] INFO  Version                - Redisson 3.23.4
+25-01-31.13:14:37.169 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-01-31.13:14:37.186 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-01-31.13:14:40.580 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-01-31.13:14:40.712 [main            ] INFO  StrategyTest           - Started StrategyTest in 8.479 seconds (JVM running for 9.835)
+25-01-31.13:19:13.755 [main            ] INFO  StrategyTest           - Starting StrategyTest using Java 1.8.0_221 on Tan with PID 22568 (started by tanya in E:\AA黑马Redis\资料\ddd-100\ddd-100-app)
+25-01-31.13:19:13.757 [main            ] INFO  StrategyTest           - The following 1 profile is active: "dev"
+25-01-31.13:19:14.860 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-01-31.13:19:14.864 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-01-31.13:19:14.906 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23 ms. Found 0 Redis repository interfaces.
+25-01-31.13:19:16.868 [main            ] INFO  Version                - Redisson 3.23.4
+25-01-31.13:19:17.593 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-01-31.13:19:17.612 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-01-31.13:19:20.604 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-01-31.13:19:20.757 [main            ] INFO  StrategyTest           - Started StrategyTest in 7.616 seconds (JVM running for 8.815)
+25-01-31.13:22:07.697 [main            ] INFO  StrategyTest           - Starting StrategyTest using Java 1.8.0_221 on Tan with PID 1680 (started by tanya in E:\AA黑马Redis\资料\ddd-100\ddd-100-app)
+25-01-31.13:22:07.698 [main            ] INFO  StrategyTest           - The following 1 profile is active: "dev"
+25-01-31.13:22:08.757 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-01-31.13:22:08.761 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-01-31.13:22:08.805 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27 ms. Found 0 Redis repository interfaces.
+25-01-31.13:22:10.662 [main            ] INFO  Version                - Redisson 3.23.4
+25-01-31.13:22:11.385 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-01-31.13:22:11.404 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-01-31.13:22:14.638 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-01-31.13:22:14.779 [main            ] INFO  StrategyTest           - Started StrategyTest in 7.672 seconds (JVM running for 8.621)
+25-01-31.13:23:26.249 [main            ] INFO  StrategyTest           - Starting StrategyTest using Java 1.8.0_221 on Tan with PID 11444 (started by tanya in E:\AA黑马Redis\资料\ddd-100\ddd-100-app)
+25-01-31.13:23:26.251 [main            ] INFO  StrategyTest           - The following 1 profile is active: "dev"
+25-01-31.13:23:27.372 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-01-31.13:23:27.377 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-01-31.13:23:27.409 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+25-01-31.13:23:29.649 [main            ] INFO  Version                - Redisson 3.23.4
+25-01-31.13:23:30.428 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-01-31.13:23:30.445 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-01-31.13:23:33.541 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-01-31.13:23:33.693 [main            ] INFO  StrategyTest           - Started StrategyTest in 8.037 seconds (JVM running for 9.15)
+25-01-31.13:25:29.869 [main            ] INFO  StrategyTest           - Starting StrategyTest using Java 1.8.0_221 on Tan with PID 23644 (started by tanya in E:\AA黑马Redis\资料\ddd-100\ddd-100-app)
+25-01-31.13:25:29.870 [main            ] INFO  StrategyTest           - The following 1 profile is active: "dev"
+25-01-31.13:25:30.930 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-01-31.13:25:30.935 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-01-31.13:25:30.971 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
+25-01-31.13:25:32.908 [main            ] INFO  Version                - Redisson 3.23.4
+25-01-31.13:25:33.639 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-01-31.13:25:33.660 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-01-31.13:25:36.642 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-01-31.13:25:36.761 [main            ] INFO  StrategyTest           - Started StrategyTest in 7.502 seconds (JVM running for 8.446)
+25-01-31.13:27:02.754 [main            ] INFO  StrategyTest           - Starting StrategyTest using Java 1.8.0_221 on Tan with PID 23612 (started by tanya in E:\AA黑马Redis\资料\ddd-100\ddd-100-app)
+25-01-31.13:27:02.755 [main            ] INFO  StrategyTest           - The following 1 profile is active: "dev"
+25-01-31.13:27:03.927 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-01-31.13:27:03.932 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-01-31.13:27:03.966 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+25-01-31.13:27:05.947 [main            ] INFO  Version                - Redisson 3.23.4
+25-01-31.13:27:06.740 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-01-31.13:27:06.767 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-01-31.13:27:10.957 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-01-31.13:27:11.122 [main            ] INFO  StrategyTest           - Started StrategyTest in 8.952 seconds (JVM running for 10.026)
+25-01-31.13:27:35.665 [main            ] INFO  StrategyTest           - Starting StrategyTest using Java 1.8.0_221 on Tan with PID 20760 (started by tanya in E:\AA黑马Redis\资料\ddd-100\ddd-100-app)
+25-01-31.13:27:35.668 [main            ] INFO  StrategyTest           - The following 1 profile is active: "dev"
+25-01-31.13:27:37.018 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-01-31.13:27:37.023 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-01-31.13:27:37.067 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23 ms. Found 0 Redis repository interfaces.
+25-01-31.13:27:39.254 [main            ] INFO  Version                - Redisson 3.23.4
+25-01-31.13:27:40.140 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-01-31.13:27:40.161 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-01-31.13:27:44.600 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-01-31.13:27:44.837 [main            ] INFO  StrategyTest           - Started StrategyTest in 9.987 seconds (JVM running for 11.278)
+25-01-31.13:29:14.798 [main            ] INFO  StrategyTest           - Starting StrategyTest using Java 1.8.0_221 on Tan with PID 25028 (started by tanya in E:\AA黑马Redis\资料\ddd-100\ddd-100-app)
+25-01-31.13:29:14.800 [main            ] INFO  StrategyTest           - The following 1 profile is active: "dev"
+25-01-31.13:29:15.969 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-01-31.13:29:15.974 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-01-31.13:29:16.016 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23 ms. Found 0 Redis repository interfaces.
+25-01-31.13:29:17.923 [main            ] INFO  Version                - Redisson 3.23.4
+25-01-31.13:29:18.658 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-01-31.13:29:18.679 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-01-31.13:29:21.808 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-01-31.13:29:21.971 [main            ] INFO  StrategyTest           - Started StrategyTest in 7.794 seconds (JVM running for 8.812)
+25-01-31.13:30:32.019 [main            ] INFO  StrategyTest           - Starting StrategyTest using Java 1.8.0_221 on Tan with PID 24212 (started by tanya in E:\AA黑马Redis\资料\ddd-100\ddd-100-app)
+25-01-31.13:30:32.020 [main            ] INFO  StrategyTest           - The following 1 profile is active: "dev"
+25-01-31.13:30:33.123 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-01-31.13:30:33.127 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-01-31.13:30:33.157 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+25-01-31.13:30:35.142 [main            ] INFO  Version                - Redisson 3.23.4
+25-01-31.13:30:35.880 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-01-31.13:30:35.914 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-01-31.13:30:39.025 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-01-31.13:30:39.195 [main            ] INFO  StrategyTest           - Started StrategyTest in 7.768 seconds (JVM running for 8.868)
+25-01-31.13:30:59.910 [main            ] INFO  StrategyTest           - Starting StrategyTest using Java 1.8.0_221 on Tan with PID 24548 (started by tanya in E:\AA黑马Redis\资料\ddd-100\ddd-100-app)
+25-01-31.13:30:59.911 [main            ] INFO  StrategyTest           - The following 1 profile is active: "dev"
+25-01-31.13:31:01.076 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-01-31.13:31:01.082 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-01-31.13:31:01.117 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+25-01-31.13:31:03.223 [main            ] INFO  Version                - Redisson 3.23.4
+25-01-31.13:31:04.087 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-01-31.13:31:04.110 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-01-31.13:31:07.535 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-01-31.13:31:07.722 [main            ] INFO  StrategyTest           - Started StrategyTest in 8.448 seconds (JVM running for 9.6)
+25-01-31.13:33:42.747 [main            ] INFO  StrategyTest           - Starting StrategyTest using Java 1.8.0_221 on Tan with PID 24064 (started by tanya in E:\AA黑马Redis\资料\ddd-100\ddd-100-app)
+25-01-31.13:33:42.749 [main            ] INFO  StrategyTest           - The following 1 profile is active: "dev"
+25-01-31.13:33:43.905 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-01-31.13:33:43.909 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-01-31.13:33:43.952 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+25-01-31.13:33:45.953 [main            ] INFO  Version                - Redisson 3.23.4
+25-01-31.13:33:46.686 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-01-31.13:33:46.705 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-01-31.13:33:50.011 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-01-31.13:33:50.171 [main            ] INFO  StrategyTest           - Started StrategyTest in 8.047 seconds (JVM running for 9.197)
+25-01-31.13:33:50.798 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-01-31.13:33:51.664 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-01-31.13:33:51.990 [main            ] INFO  StrategyTest           - 测试结果：true
+25-01-31.13:33:52.045 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-01-31.13:33:52.055 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-01-31.13:34:45.190 [main            ] INFO  StrategyTest           - Starting StrategyTest using Java 1.8.0_221 on Tan with PID 812 (started by tanya in E:\AA黑马Redis\资料\ddd-100\ddd-100-app)
+25-01-31.13:34:45.191 [main            ] INFO  StrategyTest           - The following 1 profile is active: "dev"
+25-01-31.13:34:46.518 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-01-31.13:34:46.523 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-01-31.13:34:46.564 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21 ms. Found 0 Redis repository interfaces.
+25-01-31.13:34:48.578 [main            ] INFO  Version                - Redisson 3.23.4
+25-01-31.13:34:49.351 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-01-31.13:34:49.371 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-01-31.13:34:52.633 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-01-31.13:34:52.779 [main            ] INFO  StrategyTest           - Started StrategyTest in 8.253 seconds (JVM running for 9.39)
+25-01-31.13:34:53.464 [main            ] INFO  StrategyTest           - 测试结果：102 - 4000 策略配置
+25-01-31.13:34:53.467 [main            ] INFO  StrategyTest           - 测试结果：106 - 5000 策略配置
+25-01-31.13:34:53.469 [main            ] INFO  StrategyTest           - 测试结果：107 - 6000 策略配置
