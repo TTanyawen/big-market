@@ -4,7 +4,6 @@ import lombok.extern.slf4j.Slf4j;
 import org.example.domain.strategy.service.armory.IStrategyArmory;
 import org.example.domain.strategy.service.armory.IStrategyDispatch;
 import org.example.infrastructure.redis.IRedisService;
-import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.redisson.api.RMap;

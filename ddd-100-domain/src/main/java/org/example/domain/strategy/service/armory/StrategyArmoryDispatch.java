@@ -1,6 +1,5 @@
 package org.example.domain.strategy.service.armory;
 
-
 import lombok.extern.slf4j.Slf4j;
 import org.example.domain.strategy.model.entity.StrategyAwardEntity;
 import org.example.domain.strategy.model.entity.StrategyEntity;
