@@ -74,3 +74,27 @@
 25-02-01.18:24:50.129 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【决策树规则；增加dall-e-3画图模型】treeId:100000001 node:rule_stock code:0001
 25-02-01.18:24:50.132 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【决策树规则；增加dall-e-3画图模型】treeId:100000001 node:rule_luck_award code:0001
 25-02-01.18:24:50.322 [main            ] INFO  LogicTreeTest          - 测试结果：{"awardId":101,"awardRuleValue":"1,100"}
+25-02-01.19:59:39.200 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest using Java 1.8.0_221 on Tan with PID 26496 (started by tanya in E:\AA黑马Redis\资料\ddd-100\ddd-100-app)
+25-02-01.19:59:39.208 [main            ] INFO  RaffleStrategyTest     - The following 1 profile is active: "dev"
+25-02-01.19:59:40.700 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-02-01.19:59:40.704 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-02-01.19:59:40.743 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24 ms. Found 0 Redis repository interfaces.
+25-02-01.19:59:42.732 [main            ] INFO  Version                - Redisson 3.23.4
+25-02-01.19:59:43.405 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-02-01.19:59:43.420 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+25-02-01.19:59:46.405 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-02-01.19:59:46.567 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 8.188 seconds (JVM running for 9.363)
+25-02-01.19:59:47.186 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-02-01.19:59:48.001 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-02-01.19:59:48.323 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+25-02-01.19:59:48.340 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+25-02-01.19:59:48.364 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: xiaofuge strategyId: 100006 ruleModel: rule_default awardId: 102
+25-02-01.19:59:48.366 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 xiaofuge 100006 102 rule_default
+25-02-01.19:59:48.395 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:rule_lock code:0000
+25-02-01.19:59:48.396 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:rule_stock code:0001
+25-02-01.19:59:48.397 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:rule_luck_award code:0001
+25-02-01.19:59:48.397 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-规则树 xiaofuge 100006 101 1,100
+25-02-01.19:59:48.578 [main            ] INFO  RaffleStrategyTest     - 请求参数：{"strategyId":100006,"userId":"xiaofuge"}
+25-02-01.19:59:48.583 [main            ] INFO  RaffleStrategyTest     - 测试结果：{"awardConfig":"1,100","awardId":101}
+25-02-01.19:59:48.618 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-02-01.19:59:48.626 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
