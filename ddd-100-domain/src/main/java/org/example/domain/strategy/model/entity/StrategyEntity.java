@@ -1,11 +1,11 @@
 package org.example.domain.strategy.model.entity;
 
+import org.example.types.common.Constants;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.apache.commons.lang3.StringUtils;
-import org.example.types.common.Constants;
 
 /**
  * @author Fuzhengwei bugstack.cn @小傅哥

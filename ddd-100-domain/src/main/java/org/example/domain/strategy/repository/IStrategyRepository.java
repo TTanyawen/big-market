@@ -5,7 +5,6 @@ import org.example.domain.strategy.model.entity.StrategyEntity;
 import org.example.domain.strategy.model.entity.StrategyRuleEntity;
 import org.example.domain.strategy.model.valobj.StrategyAwardRuleModelVO;
 
-import java.math.BigDecimal;
 import java.util.List;
 import java.util.Map;
 
