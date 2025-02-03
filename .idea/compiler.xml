@@ -12,11 +12,13 @@
         <module name="ddd-100-trigger" />
         <module name="ddd-100-infrastructure" />
         <module name="ddd-100-app" />
+        <module name="ddd-100-api" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ddd-100-api" options="-parameters" />
       <module name="ddd-100-app" options="-parameters" />
       <module name="ddd-100-domain" options="-parameters" />
       <module name="ddd-100-infrastructure" options="-parameters" />
