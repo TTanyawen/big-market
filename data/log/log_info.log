@@ -197,3 +197,5 @@
 25-02-03.11:36:05.011 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
 25-02-03.11:36:10.002 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
 25-02-03.11:36:15.009 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+25-02-03.11:36:20.009 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+25-02-03.11:36:25.010 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
